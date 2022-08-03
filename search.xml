@@ -8,7 +8,7 @@
       <link href="/hexo/2022/08/02/hello-world/"/>
       <url>/hexo/2022/08/02/hello-world/</url>
       
-        <content type="html"><![CDATA[<p><strong>啊啊</strong></p><script type="math/tex; mode=display">\sin(x)</script><p>123456</p>]]></content>
+        <content type="html"><![CDATA[<p><strong>啊啊</strong></p><p><span class="math display">\[ \sin(x) \]</span></p><p>123456</p>]]></content>
       
       
       
