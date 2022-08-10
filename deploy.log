@@ -1,0 +1,134 @@
+[33m========执行1/3 : 清理========[0m
+[32mINFO [39m Validating config
+[32mINFO [39m Deleted database.
+[32mINFO [39m Deleted public folder.
+[33m========执行2/3 : 生成========[0m
+[32mINFO [39m Validating config
+[32mINFO [39m Start processing
+[32mINFO [39m 
+------------------------------------------------
+|                                              |
+|     ________  __            _        __      |
+|    |_   __  |[  |          (_)      |  ]     |
+|      | |_ \_| | | __   _   __   .--.| |      |
+|      |  _|    | |[  | | | [  |/ /'`\' |      |
+|     _| |_     | | | \_/ |, | || \__/  |      |
+|    |_____|   [___]'.__.'_/[___]'.__.;__]     |
+|                                              |
+|             感谢使用 Fluid 主题 !            |
+|    文档: https://hexo.fluid-dev.com/docs/    |
+|                                              |
+------------------------------------------------
+
+[32mINFO [39m Files loaded in [36m315 ms[39m
+[32mINFO [39m Generated: [35marchives/index.html[39m
+[32mINFO [39m Generated: [35mabout/index.html[39m
+[32mINFO [39m Generated: [35mlocal-search.xml[39m
+[32mINFO [39m Generated: [35msearch.xml[39m
+[32mINFO [39m Generated: [35mcategories/index.html[39m
+[32mINFO [39m Generated: [35mtags/index.html[39m
+[32mINFO [39m Generated: [35mlinks/index.html[39m
+[32mINFO [39m Generated: [35mtags/学习/index.html[39m
+[32mINFO [39m Generated: [35marchives/2022/index.html[39m
+[32mINFO [39m Generated: [35mcategories/学习/index.html[39m
+[32mINFO [39m Generated: [35mxml/local-search.xml[39m
+[32mINFO [39m Generated: [35mimg/avatar.png[39m
+[32mINFO [39m Generated: [35m404.html[39m
+[32mINFO [39m Generated: [35mindex.html[39m
+[32mINFO [39m Generated: [35mimg/fluid.png[39m
+[32mINFO [39m Generated: [35mdeploy.log[39m
+[32mINFO [39m Generated: [35mimg/police_beian.png[39m
+[32mINFO [39m Generated: [35mdeploy.sh[39m
+[32mINFO [39m Generated: [35mimg/loading.gif[39m
+[32mINFO [39m Generated: [35mcss/highlight-dark.css[39m
+[32mINFO [39m Generated: [35mjs/boot.js[39m
+[32mINFO [39m Generated: [35mcategories/学习/English/index.html[39m
+[32mINFO [39m Generated: [35marchives/2022/08/index.html[39m
+[32mINFO [39m Generated: [35mcss/gitalk.css[39m
+[32mINFO [39m Generated: [35mjs/img-lazyload.js[39m
+[32mINFO [39m Generated: [35mjs/leancloud.js[39m
+[32mINFO [39m Generated: [35mjs/local-search.js[39m
+[32mINFO [39m Generated: [35mcss/highlight.css[39m
+[32mINFO [39m Generated: [35mjs/color-schema.js[39m
+[32mINFO [39m Generated: [35mjs/events.js[39m
+[32mINFO [39m Generated: [35mjs/utils.js[39m
+[32mINFO [39m Generated: [35mcss/main.css[39m
+[32mINFO [39m Generated: [35mjs/plugins.js[39m
+[32mINFO [39m Generated: [35mimg/default.png[39m
+[32mINFO [39m Generated: [35m2022/08/03/WordList-01/index.html[39m
+[32mINFO [39m 35 files generated in [36m267 ms[39m
+[33m========执行3/3 : 部署========[0m
+[32mINFO [39m Validating config
+[32mINFO [39m Deploying: [35mgit[39m
+[32mINFO [39m Clearing .deploy_git folder...
+[32mINFO [39m Copying files from public folder...
+[32mINFO [39m Copying files from extend dirs...
+warning: LF will be replaced by CRLF in 2022/08/03/WordList-01/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 404.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in about/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in archives/2022/08/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in archives/2022/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in archives/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in categories/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in categories/学习/English/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in categories/学习/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in css/gitalk.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in css/highlight-dark.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in css/highlight.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in css/main.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in js/boot.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in js/color-schema.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in js/events.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in js/img-lazyload.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in js/leancloud.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in js/local-search.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in js/plugins.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in js/utils.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in links/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in local-search.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in search.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tags/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tags/学习/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in xml/local-search.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in deploy.log.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in deploy.sh.
+The file will have its original line endings in your working directory
+[master 5b42ce1] Site updated: 2022-08-03 19:51:55
+ 2 files changed, 45 insertions(+)
+ create mode 100644 deploy.log
+ create mode 100644 deploy.sh
+remote: Powered by [01;33mGITEE.COM [0m[[01;35mGNK-6.3[0m][0m        
+Branch 'master' set up to track remote branch 'master' from 'git@gitee.com:chenchong01/chenchong01.git'.
+To gitee.com:chenchong01/chenchong01.git
+   7a917e4..5b42ce1  HEAD -> master
+[32mINFO [39m Deploy done: [35mgit[39m
