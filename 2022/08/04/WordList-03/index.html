@@ -472,23 +472,24 @@ class="math inline">\(\rightarrow\)</span><u>遵守，坚持；追随</u></p>
             
   <article id="comments" lazyload>
     
-  <div id="twikoo"></div>
+  <div id="waline"></div>
   <script type="text/javascript">
-    Fluid.utils.loadComments('#comments', function() {
-      Fluid.utils.createScript('https://lib.baomitu.com/twikoo/1.5.11/twikoo.all.min.js', function() {
+    Fluid.utils.loadComments('#waline', function() {
+      Fluid.utils.createCssLink('https://lib.baomitu.com/waline/2.5.1/waline.min.css')
+      Fluid.utils.createScript('https://lib.baomitu.com/waline/2.5.1/waline.min.js', function() {
         var options = Object.assign(
-          {"envId":"hexo-6gamhnfr4b68a1b4","region":"ap-shanghai","path":"window.location.pathname"},
+          {"serverURL":"gh-pages-sigma.vercel.app","path":"window.location.pathname","meta":["nick","mail","link"],"requiredMeta":["nick"],"lang":"zh-CN","emoji":["https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo"],"dark":"html[data-user-color-scheme=\"dark\"]","wordLimit":0,"pageSize":10},
           {
-            el: '#twikoo',
-            path: 'window.location.pathname',
-            onCommentLoaded: function() {
-              var imgSelector = '#twikoo .tk-content img:not(.tk-owo-emotion)';
-              Fluid.plugins.imageCaption(imgSelector);
-              Fluid.plugins.fancyBox(imgSelector);
-            }
+            el: '#waline',
+            path: window.location.pathname
           }
         )
-        twikoo.init(options)
+        Waline.init(options);
+        Fluid.utils.waitElementVisible('#waline .vcontent', () => {
+          var imgSelector = '#waline .vcontent img:not(.vemoji)';
+          Fluid.plugins.imageCaption(imgSelector);
+          Fluid.plugins.fancyBox(imgSelector);
+        })
       });
     });
   </script>
